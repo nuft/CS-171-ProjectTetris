@@ -141,17 +141,25 @@ end type_architecture;
     <a name="circuitvhdlpath" val=""/>
     <wire from="(-60,90)" to="(-60,460)"/>
     <comp loc="(100,110)" name="LED_Connector"/>
-    <comp lib="5" loc="(120,140)" name="LED">
-      <a name="facing" val="north"/>
-      <a name="label" val="LED_70"/>
-    </comp>
     <comp lib="5" loc="(260,110)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="LED_00"/>
     </comp>
+    <comp lib="5" loc="(240,110)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_10"/>
+    </comp>
+    <comp lib="5" loc="(220,110)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_20"/>
+    </comp>
     <comp lib="5" loc="(200,110)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="LED_30"/>
+    </comp>
+    <comp lib="5" loc="(180,110)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_40"/>
     </comp>
     <comp lib="5" loc="(160,110)" name="LED">
       <a name="facing" val="north"/>
@@ -165,17 +173,368 @@ end type_architecture;
       <a name="facing" val="north"/>
       <a name="label" val="LED_70"/>
     </comp>
-    <comp lib="5" loc="(220,110)" name="LED">
+    <comp loc="(100,140)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,140)" name="LED">
       <a name="facing" val="north"/>
-      <a name="label" val="LED_20"/>
+      <a name="label" val="LED_01"/>
     </comp>
-    <comp lib="5" loc="(180,110)" name="LED">
+    <comp lib="5" loc="(240,140)" name="LED">
       <a name="facing" val="north"/>
-      <a name="label" val="LED_40"/>
+      <a name="label" val="LED_11"/>
     </comp>
-    <comp lib="5" loc="(240,110)" name="LED">
+    <comp lib="5" loc="(220,140)" name="LED">
       <a name="facing" val="north"/>
-      <a name="label" val="LED_10"/>
+      <a name="label" val="LED_21"/>
+    </comp>
+    <comp lib="5" loc="(200,140)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_31"/>
+    </comp>
+    <comp lib="5" loc="(180,140)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_41"/>
+    </comp>
+    <comp lib="5" loc="(160,140)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_51"/>
+    </comp>
+    <comp lib="5" loc="(140,140)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_61"/>
+    </comp>
+    <comp lib="5" loc="(120,140)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_71"/>
+    </comp>
+    <comp loc="(100,170)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_02"/>
+    </comp>
+    <comp lib="5" loc="(240,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_12"/>
+    </comp>
+    <comp lib="5" loc="(220,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_22"/>
+    </comp>
+    <comp lib="5" loc="(200,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_32"/>
+    </comp>
+    <comp lib="5" loc="(180,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_42"/>
+    </comp>
+    <comp lib="5" loc="(160,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_52"/>
+    </comp>
+    <comp lib="5" loc="(140,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_62"/>
+    </comp>
+    <comp lib="5" loc="(120,170)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_72"/>
+    </comp>
+    <comp loc="(100,200)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_03"/>
+    </comp>
+    <comp lib="5" loc="(240,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_13"/>
+    </comp>
+    <comp lib="5" loc="(220,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_23"/>
+    </comp>
+    <comp lib="5" loc="(200,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_33"/>
+    </comp>
+    <comp lib="5" loc="(180,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_43"/>
+    </comp>
+    <comp lib="5" loc="(160,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_53"/>
+    </comp>
+    <comp lib="5" loc="(140,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_63"/>
+    </comp>
+    <comp lib="5" loc="(120,200)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_73"/>
+    </comp>
+    <comp loc="(100,230)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_04"/>
+    </comp>
+    <comp lib="5" loc="(240,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_14"/>
+    </comp>
+    <comp lib="5" loc="(220,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_24"/>
+    </comp>
+    <comp lib="5" loc="(200,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_34"/>
+    </comp>
+    <comp lib="5" loc="(180,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_44"/>
+    </comp>
+    <comp lib="5" loc="(160,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_54"/>
+    </comp>
+    <comp lib="5" loc="(140,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_64"/>
+    </comp>
+    <comp lib="5" loc="(120,230)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_74"/>
+    </comp>
+    <comp loc="(100,260)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_05"/>
+    </comp>
+    <comp lib="5" loc="(240,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_15"/>
+    </comp>
+    <comp lib="5" loc="(220,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_25"/>
+    </comp>
+    <comp lib="5" loc="(200,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_35"/>
+    </comp>
+    <comp lib="5" loc="(180,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_45"/>
+    </comp>
+    <comp lib="5" loc="(160,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_55"/>
+    </comp>
+    <comp lib="5" loc="(140,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_65"/>
+    </comp>
+    <comp lib="5" loc="(120,260)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_75"/>
+    </comp>
+    <comp loc="(100,290)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_06"/>
+    </comp>
+    <comp lib="5" loc="(240,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_16"/>
+    </comp>
+    <comp lib="5" loc="(220,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_26"/>
+    </comp>
+    <comp lib="5" loc="(200,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_36"/>
+    </comp>
+    <comp lib="5" loc="(180,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_46"/>
+    </comp>
+    <comp lib="5" loc="(160,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_56"/>
+    </comp>
+    <comp lib="5" loc="(140,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_66"/>
+    </comp>
+    <comp lib="5" loc="(120,290)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_76"/>
+    </comp>
+    <comp loc="(100,320)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_07"/>
+    </comp>
+    <comp lib="5" loc="(240,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_17"/>
+    </comp>
+    <comp lib="5" loc="(220,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_27"/>
+    </comp>
+    <comp lib="5" loc="(200,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_37"/>
+    </comp>
+    <comp lib="5" loc="(180,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_47"/>
+    </comp>
+    <comp lib="5" loc="(160,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_57"/>
+    </comp>
+    <comp lib="5" loc="(140,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_67"/>
+    </comp>
+    <comp lib="5" loc="(120,320)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_77"/>
+    </comp>
+    <comp loc="(100,350)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_08"/>
+    </comp>
+    <comp lib="5" loc="(240,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_18"/>
+    </comp>
+    <comp lib="5" loc="(220,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_28"/>
+    </comp>
+    <comp lib="5" loc="(200,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_38"/>
+    </comp>
+    <comp lib="5" loc="(180,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_48"/>
+    </comp>
+    <comp lib="5" loc="(160,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_58"/>
+    </comp>
+    <comp lib="5" loc="(140,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_68"/>
+    </comp>
+    <comp lib="5" loc="(120,350)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_78"/>
+    </comp>
+    <comp loc="(100,380)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_09"/>
+    </comp>
+    <comp lib="5" loc="(240,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_19"/>
+    </comp>
+    <comp lib="5" loc="(220,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_29"/>
+    </comp>
+    <comp lib="5" loc="(200,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_39"/>
+    </comp>
+    <comp lib="5" loc="(180,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_49"/>
+    </comp>
+    <comp lib="5" loc="(160,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_59"/>
+    </comp>
+    <comp lib="5" loc="(140,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_69"/>
+    </comp>
+    <comp lib="5" loc="(120,380)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_79"/>
+    </comp>
+    <comp loc="(100,410)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_0A"/>
+    </comp>
+    <comp lib="5" loc="(240,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_1A"/>
+    </comp>
+    <comp lib="5" loc="(220,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_2A"/>
+    </comp>
+    <comp lib="5" loc="(200,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_3A"/>
+    </comp>
+    <comp lib="5" loc="(180,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_4A"/>
+    </comp>
+    <comp lib="5" loc="(160,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_5A"/>
+    </comp>
+    <comp lib="5" loc="(140,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_6A"/>
+    </comp>
+    <comp lib="5" loc="(120,410)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_7A"/>
+    </comp>
+    <comp loc="(100,440)" name="LED_Connector"/>
+    <comp lib="5" loc="(260,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_0B"/>
+    </comp>
+    <comp lib="5" loc="(240,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_1B"/>
+    </comp>
+    <comp lib="5" loc="(220,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_2B"/>
+    </comp>
+    <comp lib="5" loc="(200,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_3B"/>
+    </comp>
+    <comp lib="5" loc="(180,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_4B"/>
+    </comp>
+    <comp lib="5" loc="(160,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_5B"/>
+    </comp>
+    <comp lib="5" loc="(140,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_6B"/>
+    </comp>
+    <comp lib="5" loc="(120,440)" name="LED">
+      <a name="facing" val="north"/>
+      <a name="label" val="LED_7B"/>
     </comp>
   </circuit>
   <circuit name="DisplayMemory">
