@@ -285,6 +285,7 @@ end type_architecture;
     <wire from="(960,700)" to="(980,700)"/>
     <wire from="(540,120)" to="(560,120)"/>
     <wire from="(520,740)" to="(540,740)"/>
+    <wire from="(1230,300)" to="(1240,300)"/>
     <wire from="(590,810)" to="(610,810)"/>
     <wire from="(720,60)" to="(740,60)"/>
     <wire from="(720,100)" to="(740,100)"/>
@@ -516,6 +517,10 @@ end type_architecture;
     <comp lib="5" loc="(1060,600)" name="LED">
       <a name="facing" val="north"/>
       <a name="label" val="L44"/>
+    </comp>
+    <comp lib="0" loc="(1230,300)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ShowPlayer"/>
     </comp>
     <comp lib="5" loc="(1080,640)" name="LED">
       <a name="facing" val="north"/>
@@ -819,6 +824,9 @@ end type_architecture;
       <a name="facing" val="east"/>
       <a name="width" val="2"/>
       <a name="label" val="CurrentState"/>
+    </comp>
+    <comp lib="0" loc="(1240,300)" name="Pull Resistor">
+      <a name="pull" val="1"/>
     </comp>
     <comp loc="(720,60)" name="PlayerState"/>
     <comp lib="5" loc="(1060,680)" name="LED">
